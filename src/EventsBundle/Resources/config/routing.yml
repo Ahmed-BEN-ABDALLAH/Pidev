@@ -1,0 +1,6 @@
+events_homepage:
+    path:     /
+    defaults: { _controller: EventsBundle:Default:index }
+events:
+    path:     /events
+    defaults: { _controller: EventsBundle:Events:Event }
